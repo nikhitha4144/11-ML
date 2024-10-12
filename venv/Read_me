@@ -1,0 +1,15 @@
+gender_value = 0 if gender == "Male" else 1
+smoker_value = 0 if smoker=="Yes" else 1
+day_value = {"Thur":0, "Fri":1,"Sat":2,"Sun":3}[day]
+time_value = 0 if time =="Lunch" else 1
+Furnishing_Status = 0 if Furnishing_Status == "Unfurnished" else 1 if Furnishing_Status == "Semi-Furnished" else 2
+Tenant_Preferred = 0 if Tenant_Preferred == "Bachelors/Family" else 1 if Tenant_Preferred == "Bachelors" else 2
+
+Furnishing_Status = "Semi_Furnished"
+Tenant_Preferred = "Family"
+
+
+Size = float(Size)
+BHK = int(BHK)
+Furnishing_Status = int(Furnishing_Status)
+Tenant_Preferred = int(Tenant_Preferred)
